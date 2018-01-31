@@ -19,7 +19,7 @@ ADD ./update.sh $SERVER/update.sh
 ADD ./autoexec.cfg $SERVER/csgo/csgo/cfg/autoexec.cfg
 ADD ./server.cfg $SERVER/csgo/csgo/cfg/server.cfg
 ADD ./csgo.sh $SERVER/csgo.sh
-
+ADD ./esl5on5.cfg $SERVER/csgo/csgo/cfg/esl5on5.cfg
 RUN chown -R $USER:$USER $SERVER
 
 USER $USER
