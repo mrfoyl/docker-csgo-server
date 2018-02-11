@@ -5,7 +5,7 @@ CS:GO server in docker with 128 tick enabled by default.
 ### Docker hub image
 
 ```shell
-docker pull gonzih/csgo-server
+docker pull mrfoyl/docker-csgo-server
 ```
 
 ### Details:
