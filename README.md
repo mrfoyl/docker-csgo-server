@@ -8,6 +8,24 @@ CS:GO server in docker with 128 tick enabled by default.
 ```shell
 docker pull mrfoyl/docker-csgo-server
 ```
+### Ebot integration
+
+```shell
+Download docker-compose file and do the following to that file
+  2. and add local IP of docker host.
+  3. Go to http://steamcommunity.com/dev/managegameservers and register for a Game login token.
+  4. Add token to docker-compose file - +sv_setsteamaccount 1233456
+  
+Install docker-compose
+Run "docker-compose up" or "docker-compose up -d" and wait for 17 GB download and extraction. CSGO server, ebot, ebotweb and mysql will be pulled, built and run.
+  
+Go to https://dockerhost:8080/admin.php
+  1. log in with default password or the one you set in docker-compose
+  2. Add game server with static container ip 10.5.0.5:27015
+  3. Save and create match.
+  
+Kill the enemy!
+```
 
 ### Details:
 By default image is build with enabled autoupdate feature (take a look at `csgo.sh` file).
