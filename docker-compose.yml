@@ -105,7 +105,7 @@ services:
       - +map de_cache
       - +hostname "Free-Norwegian-Gameserver"
       - +rcon_password "bac0n"
-      - +sv_setsteamaccount D77185428F5C2BA87C94A4284875C51E
+      - +sv_setsteamaccount INCERT STEAM GAMEID
       - +sv_region 3
       - -net_port_try
       - +logaddress_add ebot:12360
