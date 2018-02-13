@@ -104,7 +104,7 @@ services:
       - +mapgroup mg_active
       - +map de_cache
       - +hostname "Free-Norwegian-Gameserver"
-      - +rcon_password "bac0n"
+      - +rcon_password "password"
       - +sv_setsteamaccount INCERT STEAM GAMEID
       - +sv_region 3
       - -net_port_try
