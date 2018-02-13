@@ -8,7 +8,7 @@ CS:GO server in docker with 128 tick enabled by default.
 ```shell
 docker pull mrfoyl/docker-csgo-server
 ```
-### Ebot integration
+### Ebot integration (by Mrfoyl)
 
 ```shell
 Download the "docker-compose.yml" file and do the following to that file
