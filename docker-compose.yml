@@ -18,7 +18,7 @@ services:
      - /opt/docker/ebot/logs:/ebot/logs
      - /opt/docker/ebot/demos:/ebot/demos
    environment:
-     EXTERNAL_IP: '192.168.0.59'
+     EXTERNAL_IP: 'DOCKERHOST-IP'
      MYSQL_HOST: 'mysql'
      MYSQL_PORT: '3306'
      MYSQL_DB: 'ebotv3'
@@ -47,7 +47,7 @@ services:
      - /opt/docker/ebot/demos:/opt/ebot/demos
      - /opt/docker/ebot/logs:/opt/ebot/logs
    environment:
-     EBOT_IP: '192.168.0.59'
+     EBOT_IP: 'DOCKERHOST-IP'
      EBOT_PORT: '12360'
      EBOT_ADMIN_USER: 'admin'
      EBOT_ADMIN_PASS: 'password'
@@ -105,7 +105,7 @@ services:
       - +map de_cache
       - +hostname "Free-Norwegian-Gameserver"
       - +rcon_password "password"
-      - +sv_setsteamaccount INCERT STEAM GAME TOKEN
+      - +sv_setsteamaccount INSERT STEAM GAME TOKEN
       - +sv_region 3
       - -net_port_try
       - +logaddress_add ebot:12360
