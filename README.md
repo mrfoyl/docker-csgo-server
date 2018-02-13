@@ -1,4 +1,5 @@
-## Counter Strike Global Offensive + Docker
+## Counter Strike Global Offensive with Ebot integration
+## All Credit goes to Gonzih and his csgo docker build on with this is based on.
 
 CS:GO server in docker with 128 tick enabled by default.
 
