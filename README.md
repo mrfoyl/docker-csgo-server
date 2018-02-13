@@ -11,7 +11,7 @@ docker pull mrfoyl/docker-csgo-server
 ### Ebot integration
 
 ```shell
-Download docker-compose file and do the following to that file
+Download the "docker-compose.yml" file and do the following to that file
   2. and add local IP of docker host.
   3. Go to http://steamcommunity.com/dev/managegameservers and register for a Game login token.
   4. Add token to docker-compose file - +sv_setsteamaccount 1233456
